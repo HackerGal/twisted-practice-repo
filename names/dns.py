@@ -1289,7 +1289,8 @@ class Record_APL(Record_A):
         return hash(self.address)
 
     def __str__(self) -> str:
-        return "<APL address={} ttl={}>".format(self.dottedQuad(), self.ttl)
+        addr_family = "1:"
+        return "<APL address={}{} ttl={}>".format(addr_family, self.dottedQuad(), self.ttl)
 
     __repr__ = __str__
 
