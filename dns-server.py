@@ -1,6 +1,6 @@
     """
     A simple server used to demonstrate the return of an IPv4 address from an APL query.
-    APL address incomplete and needs the submask to be calculateddatetime A combination of a date and a time. 
+    APL address incomplete and needs the submask to be calculated. 
     Record_APL was added to dns.py at lines 39, 86, 189, 224 and 1262.
     """
 from twisted.internet import task
